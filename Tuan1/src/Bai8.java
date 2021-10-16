@@ -8,7 +8,7 @@ public class Bai8 {
         System.out.println("Nhap so N bat ki: ");
         Scanner Nhap = new Scanner(System.in);
         N = Nhap.nextInt();
-
+        Nhap.close();
         for (i = 1;; i++)
         {
             int counter=0;

@@ -6,6 +6,7 @@ public class Bai12 {
         System.out.println("Nhap chieu cao h bat ki: ");
         Scanner Nhap = new Scanner(System.in);
         h = Nhap.nextInt();
+        Nhap.close();
         for(;;){
             if(h>=2 && h<=10) break;
             System.out.println("Nhap lai chieu cao h bat ki: ");
@@ -18,6 +19,5 @@ public class Bai12 {
             }
             System.out.printf("\n");
         }    
-        Nhap.close();
     }
 }

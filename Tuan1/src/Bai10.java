@@ -8,6 +8,7 @@ public class Bai10 {
         System.out.println("Nhap so N bat ki: ");
         Scanner Nhap = new Scanner(System.in);
         N = Nhap.nextInt();
+        Nhap.close();
         System.out.println("Cac uoc so nguyen to khac nhau cua N la: ");
         for (i = 1; i<=N; i++)
         {
