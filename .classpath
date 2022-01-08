@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="book/src"/>
+	<classpathentry kind="src" path="Tuan1/src"/>
+	<classpathentry kind="src" path="Tuan2/Tuan2/src"/>
+	<classpathentry kind="src" path="Tuan3-4/Tuan3-4/src"/>
+	<classpathentry kind="src" path="Tuan4-5/src"/>
+	<classpathentry kind="output" path="Tuan1/bin"/>
+</classpath>
