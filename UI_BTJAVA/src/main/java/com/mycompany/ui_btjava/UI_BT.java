@@ -749,6 +749,9 @@ public class UI_BT extends javax.swing.JFrame {
     private void t1b1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t1b1ActionPerformed
         BT t1b1 = new BT();
         TextArea1.setText(""+t1b1.dbt1b1());
+        btn_nhap.setText("");
+        btn_nhap1.setText("");
+        btn_nhap2.setText("");
         control = 101;
     }//GEN-LAST:event_t1b1ActionPerformed
 
@@ -1090,6 +1093,7 @@ public class UI_BT extends javax.swing.JFrame {
     private void t1b2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t1b2ActionPerformed
         BT t1b2 =  new BT();
         TextArea1.setText(""+t1b2.dbt1b2());
+        
         control = 102;
     }//GEN-LAST:event_t1b2ActionPerformed
 
